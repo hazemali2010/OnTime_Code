@@ -8,6 +8,7 @@ namespace OnTime.Common
     public interface IPagedList<T> : IList<T>
     {
         /// <summary>
+        /// 
         /// Page index
         /// </summary>
         int PageIndex { get; }
